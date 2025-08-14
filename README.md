@@ -18,8 +18,6 @@ A modern web application built with [Next.js](https://nextjs.org/) and a cutting
 **Rizoma** is a project developed using **React 19** with **Next.js 15**, styled with **Tailwind CSS 4** and powered by a wide range of **Radix UI** and **shadcn/ui** components.  
 It includes features such as drag-and-drop, advanced form handling, dynamic tables, and smooth animations.
 
-> **Note**: Add here a more detailed explanation about the project's purpose, target audience, and core functionalities.
-
 ---
 
 ## 🛠 Tech Stack
