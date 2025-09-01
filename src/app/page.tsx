@@ -1,8 +1,8 @@
-import Navbar from "@/components/navbar";
+import { Navbar } from "@/components/navbar";
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <main>
+    <main className="@container/main flex flex-1 flex-col gap-2">
       <Navbar />
     </main>
   );

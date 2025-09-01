@@ -1,24 +1,23 @@
-import { useId } from "react";
-import { SearchIcon } from "lucide-react";
+import { useId } from 'react'
+import { SearchIcon } from 'lucide-react'
 
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+import { Button } from '@/components/ui/button'
+import { Input } from '@/components/ui/input'
 
 import {
   NavigationMenu,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-} from "@/components/ui/navigation-menu";
+} from '@/components/ui/navigation-menu'
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/components/ui/popover";
-
+} from '@/components/ui/popover'
 
 export function Navbar() {
-  const id = useId();
+  const id = useId()
 
   return (
     <header className="border-b px-4 md:px-6">
@@ -118,5 +117,5 @@ export function Navbar() {
         </div>
       </div>
     </header>
-  );
+  )
 }
